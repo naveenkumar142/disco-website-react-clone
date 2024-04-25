@@ -1,0 +1,14 @@
+h4{
+  font-size:1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.list-unstyled{
+  color: #a1a1aa;
+  padding: .5rem;
+  font-size: .875rem;
+  font-weight: 400;
+  text-decoration: none;
+  text-align: left;
+  line-height: 2rem;
+}

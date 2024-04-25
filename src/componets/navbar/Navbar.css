@@ -1,0 +1,42 @@
+.nav-items {
+  color: #000;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.5;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-behavior: normal;
+  padding: .5rem 1rem;
+}
+.nav-items {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.nav-items:hover {
+  opacity: 0.8;
+}
+
+.nav-button{
+  border: 1px solid #4467f6;
+  background-color: #4467f6;
+  color: #fff;
+  text-align: left;
+  border-radius: .75rem;
+  font-weight: 500;
+  font-size: 14px;
+  padding: .5rem 1.25rem;
+  line-height: 20px;
+}
+.signin{
+  color: #4467f6;
+  background-color: transparent;
+  border-style: none;
+  padding: .25rem 0;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.navbar-with-border {
+  border-bottom: .1px solid rgba(255, 255, 255, 0.75); 
+}

@@ -1,0 +1,110 @@
+.heading-style{
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #000;
+  font-family: 'Figtree', sans-serif;
+}
+.first-p{
+  color: #000;
+  font-family: 'Figtree', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.toggle-container {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px; /* Add padding around text */
+  border: 1px solid gray; /* Add border around text */
+  border-radius: 5px; /* Adjust border radius */
+  background-color: lightgray; /* Background color for text */
+  color: white; /* Text color */
+  transition: background-color 0.3s ease;
+
+  .toggle-circle {
+    position: absolute;
+    top: 50%;
+    right: 5px; /* Adjust spacing from the right */
+    transform: translateY(-50%);
+    width: 24px; /* Adjust circle width */
+    height: 24px; /* Adjust circle height */
+    border-radius: 50%;
+    background-color: transparent; /* Transparent background for circle */
+    border: 2px solid blue; /* Border for circle */
+    transition: background-color 0.3s ease;
+  }
+
+  .toggle-text {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-weight: bold;
+    font-size: 12px; /* Adjust font size */
+    text-align: center; /* Center text */
+    width: 100%; /* Ensure text wraps within the container */
+  }
+
+  .toggle-option {
+    cursor: pointer;
+  }
+
+  &.monthly .toggle-circle {
+    transform: translateY(-50%) translateX(100%); /* Move circle to the right */
+  }
+
+  &.monthly {
+    background-color: lightblue; /* Change background color for monthly */
+  }
+}
+
+.toggle-container:hover {
+  background-color: gray; /* Change background color on hover */
+}
+.Button{
+  border-radius: 20px;
+}
+.content-box {
+  /* border: 1px solid black; */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+.first1{
+  border: 1px transparent;
+  border-radius: 2.5rem;
+  background-color:#f8f8f8;
+  padding: 2rem;
+}
+.first2{
+  background-image: linear-gradient(225deg,#8aa0f9,#4467f6);
+  border-radius: 2.5rem;
+  border: 1px transparent;
+  color: #fff;
+  padding: 2rem;
+}
+.first3{
+  border: 1px transparent;
+  border-radius: 2.5rem;
+  padding: 2rem;
+  background-color: #eceffe;
+  line-height: 1.8rem;
+}
+.buttonforone{
+  padding-left:"20rem";
+  padding-right: "20rem";
+}
+.plan-features-button{
+  border: 1px solid #4467f6;
+  background-color: #4467f6;
+  color: #fff;
+  padding: .625rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
